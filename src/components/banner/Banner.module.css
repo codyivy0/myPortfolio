@@ -1,0 +1,22 @@
+.bannerHero {
+    background-image: url("/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.bannerHero h1{
+    color: white;
+    font-size: 5rem;
+}
+.bannerHero .headshotImg {
+    border-radius: 50%;
+    height: 10rem;
+    width: auto;
+    
+}

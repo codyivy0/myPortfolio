@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+.container h2 {
+  margin-bottom: 1rem;
+}
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+}
+.project {
+  max-height: 300px;
+  max-width: 500px;
+  height: auto;
+  width: auto;
+}
+
+.project:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+@media (max-width: 500px) {
+    .project {
+        max-width: 350px;
+        max-height: 400px;
+    }
+}
