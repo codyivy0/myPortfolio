@@ -95,10 +95,21 @@ const Projects = () => {
             </p>
           </div>
         </a>
-        <a
-          className={styles.projectLink}
-          href="https://janken-id.netlify.app/"
-        >
+        <a className={styles.projectLink} href="https://myteam-id.netlify.app/">
+          <img
+            className={styles.project}
+            src="/my-team-SS.jpg"
+            alt="myTeam talent agency"
+          />
+          <div className={styles.infoCard}>
+            <h2>myTeam</h2>
+            <p>
+              A beautiful responsive multi-page application utilizing
+              react-router.
+            </p>
+          </div>
+        </a>
+        <a className={styles.projectLink} href="https://janken-id.netlify.app/">
           <img
             className={styles.project}
             src="/jankenSS.png"
