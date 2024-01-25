@@ -25,7 +25,7 @@ const Projects = () => {
         </a>
         <a
           className={styles.projectLink}
-          href="https://starlit-muffin-6cf464.netlify.app/"
+          href="https://space-tourism-id.netlify.app/"
         >
           <img
             className={styles.project}
