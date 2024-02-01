@@ -15,9 +15,7 @@
   box-sizing: border-box;
   color: white;
 }
-html{
-  width: 100vw;
-}
+
 body {
   background-color: var(--purple4);
   padding-bottom: 1rem;

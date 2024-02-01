@@ -109,16 +109,16 @@ const Projects = () => {
             </p>
           </div>
         </a>
-        <a className={styles.projectLink} href="https://janken-id.netlify.app/">
+        <a className={styles.projectLink} href="https://where-in-the-world-id.netlify.app/">
           <img
             className={styles.project}
-            src="/jankenSS.png"
-            alt="URL shortener with logging"
+            src="/witwSS.png"
+            alt="A multi page application with a searchable database of the worlds countries and pages for each countries details. "
           />
           <div className={styles.infoCard}>
-            <h2>Rock, Paper, Scissors</h2>
+            <h2>Where in the World?</h2>
             <p>
-              A simple responsive paper, scissors, rock game that tracks scores.
+            A multi page application with a searchable database of the worlds countries and pages for each countries details. 
             </p>
           </div>
         </a>
