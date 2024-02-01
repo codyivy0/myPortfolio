@@ -7,24 +7,6 @@ const Projects = () => {
       <div className={styles.projectsContainer}>
         <a
           className={styles.projectLink}
-          href="https://creative-seahorse-f22c68.netlify.app/"
-        >
-          <img
-            className={styles.project}
-            src="/worldwiseSS.jpg"
-            alt="worldwise app"
-          />
-          <div className={styles.infoCard}>
-            <h2>Worldwise</h2>
-            <p>
-              Worldwise is a robust Single Page Application using several react
-              libraries such as router and leaflet to allow a user to navigate a
-              map and log trips complete with date and details.
-            </p>
-          </div>
-        </a>
-        <a
-          className={styles.projectLink}
           href="https://space-tourism-id.netlify.app/"
         >
           <img
@@ -52,6 +34,24 @@ const Projects = () => {
           <div className={styles.infoCard}>
             <h2>The Far Away Planner</h2>
             <p>A vacation packing helper.</p>
+          </div>
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://creative-seahorse-f22c68.netlify.app/"
+        >
+          <img
+            className={styles.project}
+            src="/worldwiseSS.jpg"
+            alt="worldwise app"
+          />
+          <div className={styles.infoCard}>
+            <h2>Worldwise</h2>
+            <p>
+              Worldwise is a robust Single Page Application using several react
+              libraries such as router and leaflet to allow a user to navigate a
+              map and log trips complete with date and details.
+            </p>
           </div>
         </a>
         <a
@@ -95,6 +95,7 @@ const Projects = () => {
             </p>
           </div>
         </a>
+
         <a className={styles.projectLink} href="https://myteam-id.netlify.app/">
           <img
             className={styles.project}
@@ -109,7 +110,11 @@ const Projects = () => {
             </p>
           </div>
         </a>
-        <a className={styles.projectLink} href="https://where-in-the-world-id.netlify.app/">
+
+        <a
+          className={styles.projectLink}
+          href="https://where-in-the-world-id.netlify.app/"
+        >
           <img
             className={styles.project}
             src="/witwSS.png"
@@ -118,7 +123,8 @@ const Projects = () => {
           <div className={styles.infoCard}>
             <h2>Where in the World?</h2>
             <p>
-            A multi page application with a searchable database of the worlds countries and pages for each countries details. 
+              A multi page application with a searchable database of the worlds
+              countries and pages for each countries details.
             </p>
           </div>
         </a>
