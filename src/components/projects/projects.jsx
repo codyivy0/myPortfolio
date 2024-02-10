@@ -78,6 +78,20 @@ const Projects = () => {
       <div className={styles.projectsContainer}>
         <a
           className={styles.projectLink}
+          href="https://designo-id.netlify.app/"
+        >
+          <img className={styles.project} src="/designo-SS.png" alt="designo" />
+          <div className={styles.infoCard}>
+            <h2>Designo</h2>
+            <p>
+              A multi page website showcasing a diverse range of captivating
+              projects.
+            </p>
+          </div>
+        </a>
+
+        <a
+          className={styles.projectLink}
           href="https://itty-bitty-url.netlify.app/"
         >
           <img
